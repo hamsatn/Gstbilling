@@ -149,7 +149,7 @@ ResultSet rs = null;
 
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 
-   connection = DriverManager.getConnection(connectionURL, "root", "MYSQL");
+   connection = DriverManager.getConnection(connectionURL, "root", "mysql");
 
 statement = connection.createStatement();
 
